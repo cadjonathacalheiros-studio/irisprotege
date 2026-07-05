@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "45535031156",
+    "firebase_url": "https://sistema-tjal-protege-default-rtdb.firebaseio.com",
+    "project_id": "sistema-tjal-protege",
+    "storage_bucket": "sistema-tjal-protege.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45535031156:android:74df2b1ec6af2b50b6c621",
+        "android_client_info": {
+          "package_name": "com.tjal.tjalprotege"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKj8ScsN-avh2RbyMKrnkmz9Qk00zBPd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
