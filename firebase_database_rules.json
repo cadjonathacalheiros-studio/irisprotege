@@ -1,0 +1,24 @@
+{
+  "rules": {
+    "usuarios": {
+      "$uid": {
+        ".read": "$uid === auth.uid || root.child('operadores/' + auth.uid).exists()",
+        ".write": "$uid === auth.uid"
+      }
+    },
+    "alertas": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "chats": {
+      "$uid": {
+        ".read": "$uid === auth.uid || root.child('operadores/' + auth.uid).exists()",
+        ".write": "$uid === auth.uid || root.child('operadores/' + auth.uid).exists()"
+      }
+    },
+    "logs": {
+      ".read": "root.child('operadores/' + auth.uid + '/role').val() === 'adm'",
+      ".write": "auth != null"
+    }
+  }
+}
